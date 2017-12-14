@@ -1,0 +1,15 @@
+//first Create a database name "db_newpatient" then craete table table using these sql code //
+
+
+
+
+CREATE TABLE patients
+(
+id INT(10) NOT NULL AUTO_INCREMENT,
+patient_name varchar(20) NOT NULL,
+father_name varchar(20) NOT NULL,
+mother_name varchar(20) NOT NULL,
+phone_number varchar(20) NOT NULL,
+date date NOT NULL,
+time time NOT NULL,
+PRIMARY KEY (id));
